@@ -1,0 +1,187 @@
+.leftside,.rightside{
+  height: 50vh;
+  width: 100%;
+}
+
+@media screen and (min-width:1000px)
+{
+  .leftside, .rightside{
+    height: 100vh;
+  }
+}
+
+.leftside{
+  min-height: 120vh;
+  background-image: url(./pic/LEFTBG2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  /* overflow-y: auto; */
+}
+
+.rightside{
+  min-height: 120vh;
+  background-image: url(./pic/RIGHTBG.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size:cover;
+  /* overflow-y: auto; */
+}
+
+p#ch{
+  background-image: url(./pic/icon.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+  padding: 30px;
+  text-align: right;
+  font-size: 45px;
+  font-family: Ink Free;
+  text-shadow:5px 5px 5px black;
+}
+p#ch1{
+  padding: 30px;
+  text-align: center;
+  font-size: 29px;
+  font-family: Ink Free;
+  text-shadow:5px 5px 5px black;
+  color:black;
+}
+
+
+#todo-form{
+  max-width: 550px;
+  height: 585px;
+  align-items: left;
+  text-align: center;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.74);
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.displayitems{
+  max-width: 500px;
+  align-items: right;
+  text-align: center;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.74);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#todo-form input{
+  background-color: rgba(3, 2, 0, 0.555);
+  border:0;
+  width: 300px;
+  height: 50px;
+  padding: 0 15px;
+  margin:30px;
+  font-size: 18px;
+  border-radius: 10px;
+  color:white;
+  font-family:Segoe Script;
+}
+
+#todo-form select{
+  background-color: rgba(3, 2, 0, 0.555);
+  align-items: right;
+  border:0;
+  width: 300px;
+  height: 50px;
+  padding: 0 20px;
+  margin:30px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-family:Segoe Script;
+}
+#todo-form button{
+  background-color: rgba(214, 15, 15, 0.685);
+  border:0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin:30px;
+  font-size: 18px;
+  border-radius: 5px;
+  border:0;
+  cursor: pointer;
+  font-weight: bolder;
+  color:rgb(255, 255, 255);
+  font-family:Segoe Script;
+}
+#todo-form textarea:focus,#todo-form input:focus,#todo-form button:focus,#todo-form select:focus{
+  
+  outline: none;
+}
+#todo-form input:hover,#todo-form select:hover,#todo-form textarea{
+  background-color: rgb(0, 0, 12);
+}
+#todo-form button:hover{
+  background-color:rgba(5, 46, 5, 0.549);
+}
+
+p#cntnt{
+  padding: 15px;
+  color: black;
+  font-size: 20px;
+  font-family: Lucida Calligraphy;
+}
+
+p#dis{
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: 18px;
+}
+
+.design{
+  width: 650px;
+  height: 650px;
+  margin: 2px auto;
+  align-items: left;
+  text-align: left;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.74);
+  border-radius: 10px;
+}
+#dis{
+  color:black;
+  font-family: Comic Sans MS;
+  
+}
+
+.header{
+  text-align: center;
+}
+textarea#a{
+  background-color: rgba(3, 2, 0, 0.555);
+  border:0;
+  padding: 0 15px;
+  margin:30px;
+  font-size: 18px;
+  border-radius: 10px;
+  color:white;
+  font-family:Segoe Script;
+}
